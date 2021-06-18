@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0E7A9D85267C94D90001CFD3 /* SwiftUI_AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A9D84267C94D90001CFD3 /* SwiftUI_AnimationsApp.swift */; };
-		0E7A9D87267C94D90001CFD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A9D86267C94D90001CFD3 /* ContentView.swift */; };
+		0E7A9D87267C94D90001CFD3 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A9D86267C94D90001CFD3 /* StarterView.swift */; };
 		0E7A9D89267C94DB0001CFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7A9D88267C94DB0001CFD3 /* Assets.xcassets */; };
 		0E7A9D8C267C94DB0001CFD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7A9D8B267C94DB0001CFD3 /* Preview Assets.xcassets */; };
+		0E7A9D94267CA05D0001CFD3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A9D93267CA05D0001CFD3 /* MainView.swift */; };
+		0E7A9D96267CA06C0001CFD3 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A9D95267CA06C0001CFD3 /* AwardsView.swift */; };
+		0E7A9D98267CA0830001CFD3 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A9D97267CA0830001CFD3 /* GradientRectangles.swift */; };
+		0E7A9D9A267CA0930001CFD3 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A9D99267CA0930001CFD3 /* PathView.swift */; };
+		0E7A9D9C267CA0A50001CFD3 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A9D9B267CA0A50001CFD3 /* CurvesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E7A9D81267C94D80001CFD3 /* SwiftUI-Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7A9D84267C94D90001CFD3 /* SwiftUI_AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AnimationsApp.swift; sourceTree = "<group>"; };
-		0E7A9D86267C94D90001CFD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E7A9D86267C94D90001CFD3 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		0E7A9D88267C94DB0001CFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E7A9D8B267C94DB0001CFD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E7A9D8D267C94DB0001CFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7A9D93267CA05D0001CFD3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0E7A9D95267CA06C0001CFD3 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		0E7A9D97267CA0830001CFD3 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		0E7A9D99267CA0930001CFD3 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		0E7A9D9B267CA0A50001CFD3 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				0E7A9D84267C94D90001CFD3 /* SwiftUI_AnimationsApp.swift */,
-				0E7A9D86267C94D90001CFD3 /* ContentView.swift */,
+				0E7A9D86267C94D90001CFD3 /* StarterView.swift */,
+				0E7A9D93267CA05D0001CFD3 /* MainView.swift */,
+				0E7A9D95267CA06C0001CFD3 /* AwardsView.swift */,
+				0E7A9D97267CA0830001CFD3 /* GradientRectangles.swift */,
+				0E7A9D99267CA0930001CFD3 /* PathView.swift */,
+				0E7A9D9B267CA0A50001CFD3 /* CurvesView.swift */,
 				0E7A9D88267C94DB0001CFD3 /* Assets.xcassets */,
 				0E7A9D8D267C94DB0001CFD3 /* Info.plist */,
 				0E7A9D8A267C94DB0001CFD3 /* Preview Content */,
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7A9D87267C94D90001CFD3 /* ContentView.swift in Sources */,
+				0E7A9D96267CA06C0001CFD3 /* AwardsView.swift in Sources */,
+				0E7A9D9C267CA0A50001CFD3 /* CurvesView.swift in Sources */,
+				0E7A9D9A267CA0930001CFD3 /* PathView.swift in Sources */,
+				0E7A9D98267CA0830001CFD3 /* GradientRectangles.swift in Sources */,
+				0E7A9D87267C94D90001CFD3 /* StarterView.swift in Sources */,
+				0E7A9D94267CA05D0001CFD3 /* MainView.swift in Sources */,
 				0E7A9D85267C94D90001CFD3 /* SwiftUI_AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
